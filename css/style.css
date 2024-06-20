@@ -229,8 +229,11 @@ h6,
     transition: .5s;
 }
 
+i{
+    color: #BA8B02 !important;
+}
 .service-item:hover {
-    background: var(--primary);
+    background:#BA8B02;
 }
 
 .service-item .service-icon {
@@ -259,13 +262,13 @@ h6,
 .service-item a.btn {
     position: relative;
     display: flex;
-    color: var(--primary);
+    color: #BA8B02;
     transition: .5s;
     z-index: 1;
 }
 
 .service-item:hover a.btn {
-    color: var(--primary);
+    color: #BA8B02
 }
 
 .service-item a.btn::before {
