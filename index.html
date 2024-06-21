@@ -41,8 +41,24 @@
             
         
         }
+
+      ::-webkit-scrollbar{
+    background-color: rgb(35, 36, 33);
+    width: 10px;
+
+
+}
+
+     ::-webkit-scrollbar-thumb{
+    background-color: #BA8B02;}
+
     </style>
 </head>
+
+
+<!--   Swwet Alert Cdn -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 <body>
     <!-- Spinner Start -->
@@ -500,7 +516,23 @@
 
 <script>
    
+function EmsiAlert(){
 
+
+    Swal.fire({
+        title:"<h2><span style='color:#BA8B02'>EMS</span>IST</h2>",
+      imageUrl: "https://emsi.ma/wp-content/uploads/2020/07/logo-1.png",
+       showConfirmButton:false,
+      imageAlt: "Organisé Par EMSI ",
+      timer:5000
+    });
+
+}
+
+
+
+
+setTimeout(()=>EmsiAlert(),5000);
 
 </script>
 
