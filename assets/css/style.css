@@ -1,5 +1,20 @@
 
 
+/* scroll bar css
+ */
+
+
+ ::-webkit-scrollbar{
+  width: 12px ;
+   background-color: rgb(36, 33, 33);
+}
+::-webkit-scrollbar-thumb{
+  background: #BA8B02;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -457,7 +472,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #534007;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -1140,7 +1155,9 @@ section {
 --------------------------------*/
 #clients {
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+  background-color: #fff;
+  
 }
 
 #clients .clients-wrap {
@@ -1331,7 +1348,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #00428a;
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
@@ -1546,7 +1565,10 @@ section {
   top: 100px;
   width: 90%;
   margin: auto;
-  background: #f3f3f3;
+  color: white;
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 4px;
 }
 #progress-content-section .section-content {
@@ -1556,16 +1578,16 @@ section {
 }
 
 .section-content h2 {
-  font-size: 17px;
+  font-size: 20px;
   text-transform: uppercase;
-  color: #333;
+font-weight: bold;
   letter-spacing: 1px;
 }
 
 .section-content p {
   font-size: 16px;
   line-height: 1.8rem;
-  color: #777;
+
 }
 
 .section-content {
