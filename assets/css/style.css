@@ -714,17 +714,17 @@ section {
 
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: black;
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: whitesmoke;
+  
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #000;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
@@ -736,14 +736,20 @@ section {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border-color: ORANGE;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #534007;
+}
+#why-us .card:hover i{
+  color: white;
 }
 
 #why-us .card h5 {
@@ -753,7 +759,7 @@ section {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: black;
 }
 
 #why-us .card .readmore {
