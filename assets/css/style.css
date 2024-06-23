@@ -1,10 +1,4 @@
-/**
-* Template Name: NewBiz
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -16,7 +10,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #BA8B02;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +18,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #BA8B02;
   outline: none;
   text-decoration: none;
 }
@@ -56,7 +50,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #BA8B02;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -70,7 +64,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2990ff;
+  background: #534007;
   color: #fff;
 }
 
@@ -150,8 +144,8 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: #004289;
-  font-weight: 500;
+  color: black;
+  font-weight: bold;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -167,7 +161,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #007bff;
+  color: #BA8B02;
 }
 
 .navbar .dropdown ul {
@@ -202,7 +196,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #007bff;
+  color: #BA8B02;
 }
 
 .navbar .dropdown:hover>ul {
@@ -331,7 +325,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #007bff;
+  color: #BA8B02;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -344,8 +338,11 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.png") center bottom no-repeat;
-  background-size: cover;
+  /* background: url("../img/hero-bg.png") center bottom no-repeat; */
+  /* background-size: cover; */
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 200px 0 120px 0;
 }
 
@@ -428,9 +425,9 @@ h6 {
 }
 
 #hero .hero-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
-  color: #fff;
+  background: #fff;
+  border: 2px solid #BA8B02;
+  color: black;
 }
 
 #hero .hero-info .btn-get-started:hover {
@@ -593,18 +590,18 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #BA8B02;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #BA8B02;
   font-size: 24px;
   line-height: 0;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #BA8B02;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -695,7 +692,9 @@ section {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #BA8B02;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right,#BA8B02, #181818 );  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,  #BA8B02,#181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #why-us .section-header h3,
@@ -795,17 +794,17 @@ section {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: white;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #BA8B02;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #BA8B02;
   color: #fff;
 }
 
@@ -827,8 +826,8 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
+  /* opacity: 0.4;
+  transition: 0.3s; */
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
@@ -859,7 +858,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #BA8B02;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -879,7 +878,7 @@ section {
   line-height: 1;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #BA8B02;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -893,7 +892,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+ 
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -901,13 +900,11 @@ section {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
-}
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+
+/* #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1478,4 +1475,170 @@ section {
 
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+
+
+
+/* Css Styling for roadmap */
+
+
+#progress-wrapper{
+background-color: red;
+
+
+}
+#progress-bar-container li .step-inner {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
+
+#progress-bar-container li.active,
+#progress-bar-container li:hover {
+  color: #444;
+}
+
+#progress-bar-container li::after {
+  content: " ";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #777;
+  margin: auto;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  margin-top: 40px;
+  box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.25s;
+}
+#progress-bar-container li:hover::after {
+  background: #555;
+}
+
+#progress-bar-container li.active::after {
+  background: #207893;
+}
+
+#progress-bar-container #line {
+  width: 80%;
+  margin: auto;
+  background-color: #eee;
+  height: 6px;
+  position: absolute;
+  left: 10%;
+  top: 57px;
+  z-index: 1;
+  border-radius: 50px;
+  transition: all ease 0.75s;
+}
+
+#progress-bar-container #line-progress {
+  content: " ";
+  width: 8%;
+  height: 100%;
+  background-color: #207893;
+  background: linear-gradient(to right #207893 0%, #2ea3b7 100%);
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.25);
+}
+#progress-content-section {
+  position: relative;
+  top: 100px;
+  width: 90%;
+  margin: auto;
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+#progress-content-section .section-content {
+  padding: 30px 40px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.section-content h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.section-content p {
+  font-size: 16px;
+  line-height: 1.8rem;
+  color: #777;
+}
+
+.section-content {
+  display: none;
+  animation: FadeinUp 0.7s ease 1 forwards;
+  transform: translateY(15px);
+  opacity: 0;
+}
+
+.section-content.active {
+  display: block;
+  opacity: 1;
+}
+.progress-wrapper {
+  margin: auto;
+  max-width: 1080px;
+}
+#progress-bar-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  margin-top: 65px;
+}
+#progress-bar-container ul {
+  padding-top: 15px;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+}
+#progress-bar-container li::before {
+  content: " ";
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+ 
+  border: 2px solid #aaa;
+  transition: all ease 0.3s;
+}
+
+#progress-bar-container li.active::before,
+#progress-bar-container li:hover::before {
+  border: 2px solid #fff;
+  background-color: rgb(29, 52, 128);
+}
+#progress-bar-container li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  text-align: center;
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all ease 0.2s;
+  vertical-align: bottom;
+  height: 60px;
+  position: relative;
+}
+@keyframes FadeInUp {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
