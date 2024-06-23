@@ -247,63 +247,274 @@
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="section-bg">
-
       <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <div class="section-header">
+              <h3>Partenaires</h3>
+              <h3>Nos Partenaires internes</h3>
+              <p>Département informatique - EMSI
+                Centre de recherche et innovation – EMSI
+              </p>
+              <h3>Nos entreprises partenaire</h3>
+            </div>
+      
+                    <title>Clients Section</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+.client-logo img {
+    cursor: pointer;
+    max-width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+}
 
-        <div class="section-header">
-          <h3>Partenaires</h3>
-          <h3>Nos Partenaires internes</h3>
-          <p>Département informatique - EMSI
-            Centre de recherche et innovation – EMSI
-          </p>
-          <h3>Nos entreprises partenaire</h3>
+.client-logo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.client-info {
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.client-info h5 {
+    margin-top: 0;
+}
+
+.client-info p {
+    margin-bottom: 0;
+}
+
+.section-header h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.clients-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="clients-wrap" data-aos="zoom-in" data-aos-delay="100">
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client1Info" aria-expanded="false" aria-controls="client1Info">
+            <img src="assets/img/clients/inso.png" class="img-fluid" alt="Client 1 Logo">
         </div>
+        <div class="collapse client-info" id="client1Info">
+            <h5>INSOFT</h5>
+            <p>Depuis 1997, INSOFT est un partenaire de confiance qui révolutionne les solutions
+              logicielles au Moyen-Orient et en Afrique. Spécialisée dans l'automatisation des forces de
+              vente, INSOFT répond aux besoins des secteurs dynamiques tels que les produits de grande
+              consommation (FMCG), les services publics et les transports. Forte de ses 25 ans d'expérience,
+              l'entreprise a su servir plus de 100 clients répartis dans plus de 10 pays, consolidant ainsi sa
+              réputation et son expertise.
+              Les exigences des clients sont au cœur des priorités d'INSOFT. En développant des
+              solutions personnalisées et innovantes, INSOFT s'efforce de répondre aux défis spécifiques de
+              chaque secteur, en assurant une amélioration continue des performances et de la productivité de
+              ses clients.
+              <p>Projet 1: Optimisation des Livraisons</p>
+                <p>'objectif de ce projet est d'optimiser les livraisons de marchandises depuis des entrepôts
+               vers des magasins précis. L'optimisation inclura la gestion des livraisons en fonction de la nature
+               des marchandises (périssables vs non périssables), l'affectation des itinéraires optimaux pour les
+               vendeurs, et la réduction de la consommation de carburant.
+                Le projet sera réalisé en utilisant le langage de programmation Java et les
+               méthodes de recherche opérationnelle. Une complexité supplémentaire pourrait être ajoutée en
+               prenant en compte le trafic en temps réel.</p>
+               <p>Projet 2: Optimisation des Rayons de Supermarché par Reconnaissance
+                Automatique des Produits</p>
+                <p> projet consiste à développer une solution de reconnaissance de produits et de leurs
+                quantités, comme les produits laitiers, les boissons gazeuses et les produits de ménages …
+                exposés dans les rayons des supermarchés.
+                Cette solution utilisera des techniques avancées de reconnaissance automatique pour
+                analyser des images de rayons de supermarché, identifier les différents produits présents, et
+                compter les quantités de chaque produit. L'objectif est de permettre une gestion plus efficace des
+                stocks et des rayons en automatisant la collecte de données sur les produits disponibles</p>
+              </p>
+              <p>Projet 3:Détection et Gestion des Tentatives de Fraude dans les Transactions Bancaires</p>
+               <p> Le projet consiste à développer une solution de détection des transactions frauduleuses en se
+                basant sur l'historique des clients. L'objectif est d'identifier les transactions suspectes, de gérer
+                les transactions normales et frauduleuses, de colorier les transactions frauduleuses (rouge,
+                jaune, vert) et de créer des alertes en cas de doute.</p>
+              <a href="https://www.insoft.com">cliquez pour plus d'informations</a>
+        </div>
+    </div>
 
-        <div class="row g-0 clients-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client2Info" aria-expanded="false" aria-controls="client2Info">
+            <img src="assets/img/clients/ram.png" class="img-fluid" alt="Client 2 Logo">
+        </div>
+        <div class="collapse client-info" id="client2Info">
+            <h5>Royal Air Maroc</h5>
+            <p>Royal Air Maroc (RAM), fondée en 1957 et basée à Casablanca, est la compagnie aérienne
+              nationale du Maroc et un membre de l'alliance Oneworld depuis 2020. Avec une flotte moderne
+              comprenant des Boeing 787 Dreamliner et des Boeing 737, RAM dessert plus de 90
+              destinations à travers l'Afrique, l'Europe, les Amériques et le Moyen-Orient depuis son hub
+              principal à l'aéroport international Mohammed V. La compagnie offre une expérience de vol de
+              qualité avec des options en classe économique et affaires, un programme de fidélité Safar Flyer
+              et des services à bord incluant des repas et des divertissements. RAM s'engage également
+              dans des initiatives durables pour réduire son empreinte environnementale.</p>
+              <p>Projet: en cours</p>
+              <a href="https://www.royalairmaroc.com ">cliquez pour plus d'informations</a>
+        </div>
+    </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/inso.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client3Info" aria-expanded="false" aria-controls="client3Info">
+            <img src="assets/img/clients/web.png" class="img-fluid" alt="Client 3 Logo">
+        </div>
+        <div class="collapse client-info" id="client3Info">
+            <h5>Webrasma </h5>
+            <p>Webrasma est une société innovante dans le domaine des solutions
+              digitales. Elle se distingue par son engagement à offrir des solutions de pointe
+              adaptées aux besoins spécifiques de chaque client.
+              Webrasma intègre divers partenaires pour renforcer son offre et mieux
+              servir sa clientèle. Parmi les services proposés, Webrasma excelle dans
+              l'analyse des données hétérogènes provenant de multiples plateformes, intégrant
+              des techniques telles que le web scraping pour collecter, organiser et rendre
+              accessibles les données via une plateforme web ou des applications mobiles.
+              </p>
+              <p>Projet : Gestion des Leads</p>
+              <p>
+                Le projet consiste à développer une solution permettant de centraliser les
+                données des entreprises de marketing provenant de différentes plateformes
+                telles qu'Instagram, WhatsApp, et autres. L'objectif principal est de fournir aux
+                entreprises une base de données clients structurée et accessible. Le second
+                objectif est de permettre le suivi des commandes depuis le premier contact
+                jusqu'à l'achat ou non</p>
+              <a href="https://www.webrasma.com ">ccliquez pour plus d'informations</a>
+        </div>
+    </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/ram.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client4Info" aria-expanded="false" aria-controls="client4Info">
+            <img src="assets/img/clients/j&t.png" class="img-fluid" alt="Client 4 Logo">
+        </div>
+        <div class="collapse client-info" id="client4Info">
+            <h5>J&T Robotics</h5>
+            <p>J&T Robotics est spécialisée dans la vente et l’adaptation de solutions robotiques
+              innovantes. L'entreprise met à disposition des technologies de pointe pour des projets éducatifs et
+              professionnels.
+              En tant que leader dans le domaine de la robotique, J&T Robotics fournit des solutions
+              sur mesure pour répondre aux besoins spécifiques des clients, en intégrant des technologies
+              avancées pour améliorer l'efficacité et la performance des projets. La société se distingue par son
+              engagement envers l'innovation et son expertise technique, offrant des produits et des services
+              qui repoussent les limites de ce qui est possible avec la robotique moderne</p>
+              <p>Projet : Conception d'un Robot "Chess-Master"
+                </p>
+              <p>Le projet consiste à concevoir et développer un robot capable de jouer aux échecs contre un
+                joueur humain. Basé sur un robot à 3 axes, l'étudiant devra concevoir la maquette et les outils
+                (gadgets) nécessaires, développer un code en Python pour permettre au robot de jouer aux
+                échecs, intégrer le code, et tester le système.</p>
+              <a href="https://www.linkedin.com/company/j-t-robotix/?originalSubdomain=ma ">cliquez pour plus d'informations</a>
+              
+        </div>
+    </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/web.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/j&t.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/ola.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/amp.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client5Info" aria-expanded="false" aria-controls="client5Info">
+            <img src="assets/img/clients/ola.png" class="img-fluid" alt="Client 5 Logo">
+        </div>
+        <div class="collapse client-info" id="client5Info">
+            <h5>Ola Energy</h5>
+            <p>Ola Energy, anciennement connue sous le nom de Oil Libya, est une entreprise
+              panafricaine spécialisée dans la distribution et la commercialisation de produits
+              pétroliers et de services énergétiques. Fondée en 1997 et basée à Nairobi, au Kenya, la
+              société opère dans plus de 17 pays africains avec un réseau de plus de 1 200
+              stations-service. Ola Energy propose une gamme complète de carburants, lubrifiants, et
+              autres produits pétroliers de haute qualité, ainsi que des services de boutique et de
+              restauration dans ses stations. Engagée dans le développement durable, Ola Energy
+              investit dans des initiatives écologiques et des solutions énergétiques innovantes pour
+              réduire son empreinte carbone</p>
+              <p>Projet 1 ,2 et3 : Organisation des données de trois départements (vente, marketing
+                et finance) sur power BI
+                </p>
+              <p>Collecter les données des départements ventes, marketing, et finance. Structurer les
+                données en modèles interconnectés pour Power BI. Concevoir des tableaux de bord
+                interactifs pour chaque département. Visualiser les indicateurs clés de performance
+                (KPI) spécifiques. Configurer des mises à jour automatiques pour des informations en
+                temps réel.</p>
+              <a href="https://olaenergy.com ">cliquez pour plus d'informations</a>
 
         </div>
+    </div>
 
-      </div>
+    <div class="col-12">
+        <div class="client-logo" data-bs-toggle="collapse" data-bs-target="#client6Info" aria-expanded="false" aria-controls="client6Info">
+            <img src="assets/img/clients/amp.png" class="img-fluid" alt="Client 6 Logo">
+        </div>
+        <div class="collapse client-info" id="client6Info">
+            <h5>Amplicom Agency</h5>
+            <p>Amplicom Agency est une agence de communication et de marketing basée à
+              Casablanca, Maroc. Fondée avec l'objectif de fournir des solutions de communication
+              innovantes et efficaces, l'agence se spécialise dans une gamme de services incluant le
+              marketing digital, la gestion des réseaux sociaux, la création de contenu, le design
+              graphique, et le développement web. Grâce à une équipe d'experts passionnés,
+              Amplicom Agency aide ses clients à renforcer leur présence en ligne, à atteindre leurs
+              objectifs commerciaux, et à se démarquer dans un marché concurrentiel. L'agence est
+              reconnue pour son approche personnalisée et son engagement envers l'excellence,
+              offrant des stratégies sur mesure qui répondent aux besoins spécifiques de chaque
+              client</p>
+              <p>Projet 1 : Développement d’une plateforme de prise de Rendez-vous pour
+                Médecins</p>
+                <p>Créer une plateforme en ligne pour la prise de rendez-vous médicaux. Simplifier le
+                  processus de réservation pour les patients et la gestion des agendas pour les
+                  médecins. Permettre l'inscription, la recherche de médecins, et la réservation de
+                  créneaux disponibles en ligne. Envoyer des notifications et rappels automatiques pour
+                  les rendez-vous. Assurer la sécurité et la confidentialité des données personnelles et
+                  médicales.</p>
+                  <p>Projet 2 : Création d’une plateforme de recherche et réservation d’Hôtels,
+                    Appartements et Réservations</p>
+                    <p>Développer une plateforme en ligne pour rechercher et réserver hôtels, appartements,
+                      et restaurants. Inclure des fonctionnalités de recherche avancée par localisation, prix, et
+                      disponibilité. Permettre la création de profils utilisateurs avec préférences et historiques
+                      de réservation. Intégrer des avis et notes des utilisateurs pour chaque établissement.
+                      Offrir des cartes interactives pour localiser les établissements et attractions à proximité.</p>
+              <a href="https://www.amplicomagency.com ">cliquez pour plus d'informations</a>
+        </div>
+        
+    </div>
 
-    </section><!-- End Clients Section -->
+    
+
+
+</section><!-- End Clients Section -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+var clientLogos = document.querySelectorAll('.client-logo');
+clientLogos.forEach(function (logo) {
+    logo.addEventListener('click', function () {
+        clientLogos.forEach(function (otherLogo) {
+            if (otherLogo !== logo) {
+                var collapseElement = otherLogo.nextElementSibling;
+                var bsCollapse = new bootstrap.Collapse(collapseElement, {
+                    toggle: false
+                });
+                if (collapseElement.classList.contains('show')) {
+                    bsCollapse.hide();
+                }
+            }
+        });
+    });
+});
+});
+</script>
 
 
     <!-- ======= Why Us Section ======= 
