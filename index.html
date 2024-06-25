@@ -49,18 +49,30 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between">
 
-      <div class="logo mt-2" style="margin-left: 50px;">
-        <!-- Uncomment below if you prefer to use an text logo -->
-        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <img src="assets/img/logo2.jpeg" style="scale:2" width="auto" alt="" class="img-fluid">
-        
-      </div>
-      <div class="logo mt-2" style="margin-left: 50px;">
-        <!-- Uncomment below if you prefer to use an text logo -->
-        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <img src="assets/img/logo-1.png" style="scale:2" width="auto" alt="" class="img-fluid">
-        
-      </div>
+      <div class="logo-container" style="display: flex; align-items: center; margin-left: 50px;">
+        <div class="logo mt-2">
+            <!-- Uncomment below if you prefer to use an text logo -->
+            <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+            <img src="assets/img/logo2.jpeg" style="scale:2" width="auto" alt="" class="img-fluid">
+        </div>
+        <div class="logo mt-2">
+            <!-- Uncomment below if you prefer to use an text logo -->
+            <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+            <img src="assets/img/logo-1.png" style="scale:2" width="auto" alt="" class="img-fluid">
+        </div>
+    </div>
+<style>
+    .logo-container {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .logo {
+        margin-right: 40px; /* Adjust the spacing between logos if needed */
+    }
+</style>
+    
 
       <nav id="navbar" class="navbar">
         <ul>
