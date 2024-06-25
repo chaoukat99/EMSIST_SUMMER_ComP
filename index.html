@@ -50,15 +50,14 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo-container" style="display: flex; align-items: center; margin-left: 50px;">
+        
         <div class="logo mt-2">
-            <!-- Uncomment below if you prefer to use an text logo -->
-            <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-            <img src="assets/img/logo2.jpeg" style="scale:2" width="300px" alt="" class="img-fluid">
+
+          <a href="#hero"><img src="assets/img/logo2.jpeg" style="scale:2" width="300px" alt="" class="img-fluid"></a>
         </div>
         <div class="logo mt-2">
-            <!-- Uncomment below if you prefer to use an text logo -->
-            <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-            <img src="assets/img/logo-1.png" style="scale:2" width="350px" alt="" class="img-fluid">
+
+          <a href="#hero"><img src="assets/img/logo-1.png" style="scale:2" width="350px" alt="" class="img-fluid"></a>
         </div>
     </div>
 <style>
@@ -70,8 +69,8 @@
     }
 
     .logo {
-        margin-right: 40px; /* Adjust the spacing between logos if needed */
-        width: 50px; /* Réduit la taille des logos sur les petits écrans */
+        margin-right: 40px; 
+        width: 50px; 
         margin-left: 20px;
     }
     
@@ -97,7 +96,7 @@
   </header><!-- #header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="clearfix">
+  <section id="hero" class="clearfix" style="width: 100vw; height: 100vh; overflow: hidden;">
     <div class="container" data-aos="fade-up">
 
       <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
@@ -207,8 +206,14 @@
       </div>
     </section><!-- End About Section -->
 
+    
+
    <!-- start  RoadMap -->
    <section id="events">
+    <header class="section-header">
+      <h3>Évènements</h3>
+    </header>
+    <br>
    <div class="progress-wrapper">
     <div id="progress-bar-container">
       <ul>
@@ -270,9 +275,12 @@
             <div class="section-header">
               <h3>Partenaires</h3>
               <h3>Nos Partenaires internes</h3>
-              <p>Département informatique - EMSI<br>
+              <p>Département Informatique et Réseaux - DIIR<br>
+                Laboratoire LPRI EMSI CASABLANCA<br>
                 Centre de recherche et innovation – EMSI
-              </p>
+              <div style="text-align: center;"> <!-- Ajout du style de centrage ici -->
+                <img src="assets/img/emsi_rech.jpg" width="135px">
+              </div></p>
               <h3>Nos partenaires entreprises </h3>
             </div>
       
@@ -723,13 +731,13 @@ clientLogos.forEach(function (logo) {
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3 class="section-title">Equipes</h3>
+          <h3 class="section-title">Equipes d'organisation</h3>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-Parrainage" class="filter-active">Parrainage</li>
+              <li data-filter=".filter-Parrainage" class="filter-active">organisation</li>
               <li data-filter=".filter-Programmation">Programmation</li>
               <li data-filter=".filter-Communication">Communication</li>
               <li data-filter=".filter-Logistique" class="filter-active">Logistique</li>
@@ -1071,7 +1079,7 @@ clientLogos.forEach(function (logo) {
               </div>
               <div
                 style="width:100%;height:70px;background-color: rgb(88, 54, 12);color:white;font-size:20pt;display:flex;justify-content:center;align-items:center;">
-                 OUKRICHE NADIA
+                 OUKRICH NADIA
               </div>
             </div>
           </div>
@@ -1089,6 +1097,22 @@ clientLogos.forEach(function (logo) {
               </div>
             </div>
           </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Parrainage">
+            <div class="portfolio-wrap">
+              <img src="assets/img/TABAA.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <p>Card</p>
+
+              </div>
+              <div
+                style="width:100%;height:70px;background-color: rgb(88, 54, 12);color:white;font-size:20pt;display:flex;justify-content:center;align-items:center;">
+                TABAA MOHAMED
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-Parrainage">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
@@ -1104,7 +1128,6 @@ clientLogos.forEach(function (logo) {
             </div>
           </div>
           
-
         </div>
 
       </div>
